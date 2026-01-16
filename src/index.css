@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom right, #F8C8DC, #FADADD);
+  min-height: 100vh;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-script {
+  font-family: 'Dancing Script', cursive;
+}
