@@ -15,7 +15,7 @@ export default function Events({ events }) {
   });
 
   const formatEvent = (event) => {
-    const eventDate = event.date ? new Date(event.date).toLocaleDateString('en-US', { 
+    const eventDate = event.date ? new Date(event.date).toLocaleDateString('en-GB', { 
       year: 'numeric', 
       month: '2-digit', 
       day: '2-digit' 

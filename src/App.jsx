@@ -11,8 +11,8 @@ function App() {
   
   // Format date and time
   const date = new Date(`${weddingDate}T${weddingTime}`);
-  const dayName = date.toLocaleDateString('en-US', { weekday: 'long' });
-  const formattedDate = date.toLocaleDateString('en-US', { 
+  const dayName = date.toLocaleDateString('en-GB', { weekday: 'long' });
+  const formattedDate = date.toLocaleDateString('en-GB', { 
     year: 'numeric', 
     month: 'long', 
     day: 'numeric' 
@@ -28,7 +28,7 @@ function App() {
       <header className="p-6">
         <div className="container mx-auto flex justify-center items-center">
           <div className="text-center">
-            <img src="/wedjolo-logo.png" alt="Wedjolo Films" className="h-12 mx-auto" style={{ mixBlendMode: 'multiply' }} />
+            <img src="/wedjolo-logo.png" alt="Wedjolo Films" className="h-16 mx-auto" style={{ mixBlendMode: 'multiply' }} />
           </div>
         </div>
       </header>
